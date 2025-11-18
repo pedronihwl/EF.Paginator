@@ -5,7 +5,6 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
 
-        <!-- NuGet Package Configuration -->
         <PackageId>EF.Paginator</PackageId>
         <Version>1.0.0</Version>
         <Authors>Pedro Pereira</Authors>
@@ -21,7 +20,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.0" />
     </ItemGroup>
 
     <ItemGroup>
