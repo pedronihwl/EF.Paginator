@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+
+        <!-- NuGet Package Configuration -->
+        <PackageId>EF.Paginator</PackageId>
+        <Version>1.0.0</Version>
+        <Authors>Pedro Pereira</Authors>
+        <Company>Pedro Pereira</Company>
+        <Description>A dynamic pagination library for Entity Framework Core with support for filtering, sorting, and eager loading to prevent N+1 queries. Includes synchronous and asynchronous methods with count-by-filter capability.</Description>
+        <PackageTags>pagination;entityframework;ef-core;filtering;sorting;expressions;dynamic-queries</PackageTags>
+        <RepositoryUrl>https://github.com/pedronihwl/EF.Paginator</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+        <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Include="README.md" Pack="true" PackagePath="\" />
+    </ItemGroup>
+
+</Project>
